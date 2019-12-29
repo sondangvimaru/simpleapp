@@ -1,18 +1,10 @@
 {
   "name": "video-stream-sample",
-  "version": "1.0.0",
-  "description": "Streaming video example",
-  "main": "server.js",
-  "engines": {
-    "node": ">=6.2.0"
-  },
-  "scripts": {
-    "start": "nodemon server.js"
-  },
-  "author": "daspinola",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.15.3",
-    "nodemon": "^1.11.0"
-  }
+    "version": "0.0.1",
+    "dependencies": {
+      "express": "*",
+      "socket.io": "*",
+      "socketio-file-upload": "^0.4.4"
+    }
+  
 }
